@@ -1,0 +1,785 @@
+/*------------------------------------------------------------Stili generali per la pagina-----------------------------------*/
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Verdana;
+	vertical-align: baseline;
+	letter-spacing: 0.05em;
+}
+div.copertina{
+	color: #FFF;
+	text-align: center;
+	font-size: 1.3em;
+}
+/* Body */
+body{
+	background-color:#f6f6f6;
+}
+header,footer,ul{
+	background:#333;
+}
+header{
+	margin:auto;
+}
+h2.Titolo, h3.frase{
+	color: #FFF;
+}
+#Titolo1{
+	color:#333;
+}
+h2.Titolo, #Titolo1{
+	font-size: 1.5em;
+}
+div.collegamenti{
+	background-color: #333;
+	width:13%;
+	height:20%;
+	border-radius:10px;
+}
+/*Riquadri storia e territorio*/
+div.box, #storia1, div.beach{
+	margin-top:1%;
+	margin-left: 1%;
+	display: inline-block;
+   padding: 3%;
+   font-size: 1.1em;
+   font-variant: normal; 
+  	letter-spacing: 0.15em;
+  	width: 40%;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	text-align: center;
+	margin-bottom:2%;
+}
+div.box img.immaginiStoria, #storia1 img.immaginiStoria, img.spiagge {
+	width: 40%;
+	float: left;
+	margin-right: 4%;	
+}
+/* Header */
+header{
+	height:140px;
+}
+div.Titolini,div.intestazione1{
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: normal;
+   color: #FFFFFF;
+   text-align:center;
+	padding-top:2px;
+	vertical-align:middle;
+   width: 100%;
+}
+header>div>h1{
+	margin-right:5%;
+	margin-bottom:10%;
+}
+#piombino{
+	float:left;
+	height:80px;
+	width:80px;
+	padding-top:20px;
+	padding-left:20px;
+}
+/* Menù di navigazione */
+#menuOrizzontale{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	font-size:0.8em;
+}
+#menuOrizzontale>li{
+	float:left;
+}
+li a, #select{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+#select{
+	background-color: #666666;
+}
+li a:hover{
+	background-color: #666666;
+}
+/*Footer*/
+footer{
+	height:100%;
+	margin:0;
+	padding:1%;
+	text-align:center;
+}
+#recapito{
+	color:#FFF;
+	font-size:0.7em;
+}
+#recapito h3{
+	font-style:italic;
+}
+/*------------------------------------------------------------Home page------------------------------------------------------*/
+/*Sezione 1*/
+#Scopri{
+	background: url("img/sfondoSezione.png")  no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 350px;
+	padding: 80px 0px;
+}
+#Scopri>div, #Scopri>div>a{
+	text-align:center;
+	padding-top:10px;
+	vertical-align:middle;
+   width: 100%;
+}
+#coll1{
+	padding:5px;
+	margin-left: 42%;
+}
+#coll1 a{
+	text-decoration: none;
+	color: #FFF;
+}
+#frase{
+	font-size:0.9em;
+}
+/*Sezione 2*/
+#Titolo1{
+	text-align:center;
+	margin-top:4%;
+}
+#Home{
+	height:30%;
+}
+#content_imgPiombino{       
+	display:inline-block;                   
+   height:300px;
+	margin-left:37%;
+	margin-top:1%;
+	padding:0%;
+}
+#descr{
+	padding:1%;
+}
+#descr>p{
+	text-align:center;
+	vertical-align:middle;
+   width: 100%;
+	font-size:0.9em;
+}
+#coll2{
+	background-color: #333;
+	width:13%;
+	height:70px;
+	color: #FFF;
+	margin-left:42%;
+	margin-bottom:5%;
+	padding: 5px 10px;
+}
+#coll2 a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+}
+/*Sezione 3*/
+#Turista{
+	background: url("img/piombinoT.png")  no-repeat center center fixed ;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+	padding-top:80px;
+	margin-bottom:0; 	
+}
+#sezione3{
+	margin-left:5%;
+}
+#collTurista{
+	margin-left:10%;
+	padding:10px 5px;
+}
+#collTurista>h3{
+	text-decoration: none;
+	cursor: pointer;
+	margin-top:7px;
+	margin-right:0;
+}
+#coll3{
+	margin-left: 1%;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+#coll3 a{
+	text-decoration: none;
+}
+#coll3 h3{
+	color: #FFF;
+	text-align: center;
+	margin-top:20px;
+}
+/*------------------------------------------------------------Sezione storia-------------------------------------------------*/
+#copertina0{
+	background: url("img/centroStorico.png") no-repeat center fixed;
+	height:100px;
+	padding:0;
+}
+div.box p, #storia1 p {
+	font-size:0.7em;	
+	font-variant: normal; 
+	letter-spacing: 0.02em;
+	text-align: justify;
+}
+div.container{
+	padding:3%;
+}
+/*------------------------------------------------------------Territorio-----------------------------------------------------*/
+#copertina1{
+	background: url("img/etruschi2.png") no-repeat fixed center;
+}
+#libreria{
+	padding-left:18%;
+}
+article.territorio{
+	background-color: #333;
+	width:13%;
+	height:10%;
+	color: #FFF;
+	padding:8px 50px;
+	border-radius: 10px;
+}
+#promontorio{
+	padding-left:10px;
+}
+#clima{
+	padding-right:4px;
+}
+#centro{
+	font-size:0.9em;
+	padding-right:5px;
+}
+#promontorio, #clima, #centro{
+	cursor: pointer;
+	margin: 3%;
+	display: inline-block;
+}
+div.nome a:link,div.nome a:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+#copertina2{
+	background: url("img/baratti1.png") no-repeat fixed center;
+}
+
+#copertina0, #copertina1, #copertina2, #copertina3{
+	background-size: cover;
+	height: 210px;
+	width:100%;
+	padding: 80px 0px;
+}
+div.beach{
+	font-size: 0.9em;
+}
+
+#descrizione p{
+	margin: 2%;
+}
+#risultato{
+	border-top-style:groove;
+	border-bottom-style:groove;
+	margin-bottom:4%;
+	border-radius: 5px;
+	margin-top:2%;
+	font-size:0.8em;
+}
+#risultato img{
+	padding-left: 32%;
+	padding-bottom: 2%;
+}
+#title{
+	text-align: center;
+}
+div.end{
+	font-size: 1.1em;
+	text-align:center;
+	margin-bottom:2%;
+}
+div.end a{
+	text-decoration: none;
+	background: #333;
+	color: #FFF;
+	border-radius: 10px;
+	padding:1%;
+}
+/*------------------------------------------------------------Turista--------------------------------------------------------*/
+#copertina3{
+	background: url("img/piombinoT.png") no-repeat center fixed;
+	margin: 0;
+	width:100%;
+	background-size: cover;
+	height:100px;
+}
+#itinerario li{
+	margin: 1%;
+}
+#tipo{
+	margin-left: 27%;
+	text-align:center;
+	width:17%;
+}
+#nome{
+	margin-left: 5%;
+	width:22%;
+	text-align:center;
+}
+#percorso{
+	text-align: center;
+	font-size: 1.4em;
+	border-radius: 10px;
+	border-top-style:groove;
+	border-bottom-style:groove;
+	padding: 2%;
+	font-weight: bold;
+	margin: 1% 15%;
+}
+#itinerario{
+	font-size:0.9em;
+}
+#itinerario li{
+	border-radius: 10px;
+	border-top-style:groove;
+	border-bottom-style:groove;
+	margin: 2%;
+	padding: 2%;
+}
+div.mappa{
+	text-align:center;
+	margin-bottom:5%;
+	font-size: 1.2em;
+}
+#piantina{
+	height: 40%;
+	width: 40%;
+}
+/*------------------------------------------------------------About----------------------------------------------------------*/
+#about{
+	margin: 5% 2%;
+	text-align: center;
+	border-radius: 10px;
+	border-top-style:groove;
+	border-bottom-style:groove;
+}
+/*------------------------------------------------------------Media query per header-----------------------------------------*/
+
+@media screen and (max-width:700px){
+	div.Titolini h1{
+		font-size:1.1em;
+		padding-top:6%;
+		width:100%;
+	}
+	#menuOrizzontale{
+		width:100%;
+		display:block;
+	}
+	nav a{
+   display: block;
+	}
+	#select{
+		padding:15px 10px;
+	}
+}
+@media screen and (max-width:650px){
+	div.Titolini img{
+		font-size: 1.2em;
+	}
+	#piombino{
+		height:80px;
+	}
+	#menuOrizzontale{
+		font-size:1.2em;
+	}
+	#select{
+		padding:15px 0px;
+	}
+	#menuOrizzontale li{
+		display:block;
+		width:100%;
+	}
+}
+/*------------------------------------------------------------Media query per home page--------------------------------------*/
+@media screen and (min-height:1280px){
+	#content_imgPiombino{
+		margin-left:20%;
+	}
+}
+@media screen and (max-width:850px){
+	/*Sezione 2*/
+	#content_imgPiombino{
+		margin-left:28%;
+	}
+}
+
+@media screen and  (max-width:768px){
+	/*Sezione 2*/
+	#content_imgPiombino{
+		margin-left:34%;
+		height:150px;
+	}
+	/*Sezione 3*/
+	#coll3{
+		padding:2%;
+	}
+}
+@media screen and (max-width:630px){
+	/*Sezione 2*/
+	#content_imgPiombino>img{
+		margin-left:20%;
+		height:110px;
+	}
+	h2.Titolo, #Titolo1{
+		font-size:1.6em;
+	}
+	h3.frase,#descr>p{
+		font-size: 1.2em;
+	}
+	#coll1,#coll2{
+		font-size:0.8em;
+		height:70px;
+	}
+	#coll2{
+		padding-right:4%;	
+		width:100px;
+		margin-left:38%;
+	}
+	/*Sezione 3*/
+	#coll3{
+		width:80px;
+	}
+}
+@media screen and (max-width: 400px){
+    /*Sezione 2*/
+	#content_imgPiombino{
+		margin-left:35%;
+		height:90px;
+	}
+	#coll1{
+		margin-left:34%;
+	}
+	div.collegamenti, #coll2{
+		width:100px;
+		font-size:0.7em;
+	}
+	div.collegamenti{
+		padding-left:10%;
+	}
+	#coll2{
+		margin-left:30%;
+	}
+	/*Sezione 3*/
+	#sezione3 h2{
+		margin-left:13%;
+	}
+	#sezione3 h3{
+		margin-left:7%;
+	}
+	#coll3{
+		margin-left:25%;
+		padding:1px;
+	}
+}
+/*-----------------------------------------------------------Media query per sezione storia-------------------------------------------------*/
+@media screen and (max-width:500px){
+	#copertina0{
+		height:10px;
+		padding-bottom:30%;
+	}
+	div.box{
+		font-size:1.0em;
+		display:block;
+		width:90%;
+	}
+	div.box p{
+	font-size:0.9em;
+	}
+	#storia1{
+		font-size:1.0em;
+		width:90%;
+	}
+	#storia1 p{
+		font-size:0.9em;
+	}
+	div.container{
+		padding:1%;
+	}
+}
+/*------------------------------------------------------------Media query sezione territorio---------------------------------*/
+@media screen and (min-width: 1500px){
+	#risultato img{
+		padding-left: 35%;
+	}
+}
+
+@media screen and (max-width:1190px){
+	article.territorio{
+		height:10%;
+		width:9%;
+	}
+	#promontorio{
+		padding-right:80px;
+		padding-left:20px;
+		margin-left:10%;
+	}
+	#clima{
+		padding-left:15px;
+	}
+	#centro{
+		padding-left:18px;
+	}
+	div.nome h2{
+		font-size:1.1em;
+	}
+	#risultato img{
+		height:210px;
+		padding-left: 44%;
+	}
+	#descrizione p{
+		font-size: 1.1em;
+	}
+}
+@media screen and (max-width:910px){
+	#copertina1 h1{
+		font-size:1.2em;
+	}
+	#risultato img{
+		padding-left:42%;
+		height:220px;
+	}
+	#centro{
+		padding-right:30px;
+	}
+}
+@media screen and (max-width:800px){
+	#risultato img{
+		padding-left:38%;
+	}
+	#promontorio, #clima{
+		width:13%;
+	}
+	#libreria{
+		padding-left:0%;
+	}
+}
+@media screen and (max-width:650px){
+	#risultato img{
+		padding-left:34%;
+		height:210px;
+	}
+}
+@media screen and (max-width:600px){
+	div.beach h2, p.end, div.copertina h1{
+		font-size: 1.1em;
+	}
+	#copertina1{
+		height: 10px;
+	}
+	#libreria{
+		display:inline-block;
+	}
+	article.territorio{
+		height:60px;
+		width:10%;
+		font-size:0.9em;
+	}
+	#promontorio{
+		margin-left:10%;
+	}
+	#title{
+		font-size:1.4em;
+	}
+}
+@media screen and (max-width:500px){
+	#promontorio{
+		margin-left:5%;
+	}
+	#risultato img{
+		padding-left:25%;
+	}
+	#copertina1{
+		padding-bottom:45%;
+	}
+}
+@media screen and (max-width: 450px){
+	#libreria{
+		display:block;
+		padding-left:5%;
+	}
+	#libreria article{
+		width:40%;
+	}
+	#promontorio{
+		padding-left:60px;
+	}
+    #clima{
+		padding-left:95px;
+		padding-right:45px;
+	}
+	#centro{
+		padding-left:85px;
+		padding-right:45px;
+	}
+	#risultato img{
+		padding-left: 16%;
+		height:200px;
+	}
+}
+/*------------------------------------------------------------Media query per sezione spiagge--------------------------------*/
+@media screen and (max-width:650px){
+	#copertina2{
+		height:20px;
+	}
+	div.beach{
+		display:block;
+		width:90%;
+		height:200px;
+		font-size:0.8em;
+	}
+}
+@media screen and (max-width: 500px){
+	div.beach{
+		height:150px;
+	}
+	div.beach h2{
+		font-size:1.3em;
+	}
+	img.spiagge{
+		height:100px;
+	}
+	div.end{
+		margin-bottom:10%;
+		margin-top:15%;
+	}
+}
+/*------------------------------------------------------------Media query per sezione turista--------------------------------*/
+@media screen and (max-width:1100px){
+	#tipo{
+		margin-left:25%;
+	}
+	#nome{
+		width:30%;
+		text-align:center;
+	}
+}
+@media screen and (max-width:900px){
+	#tipo{
+		margin-left:26%;
+	}
+}
+@media screen and (max-width:800px){
+	#nome{
+		width:40%;
+	}
+}
+@media screen and (max-width:650px){
+	#tipo, #nome{
+		display:block;
+	}
+	#tipo{
+		margin-left:42%;
+	}
+	#nome{
+		margin-top:5%;
+		width:40%;
+		margin-left:30%;
+	}
+}
+@media screen and (max-width: 600px){
+	#tipo{
+		margin-left:28%;
+		width:50%;
+	}
+	#percorso{
+		font-size:1.1em;
+	}
+	#nome{
+		margin-top:5%;
+		width:75%;
+		margin-left:16%;
+	}
+	div.mappa{
+		font-size:1.1em;
+	}
+	#itinerario{
+		font-size:1.1em;
+	}
+	#piantina{
+		height:90%;
+		width:90%;
+	}
+}
+/*Media query per televisori 4k*/
+@media screen and (min-width: 2160px){	
+	#menuOrizzontale{
+		font-size:1.0em;
+	}
+	h2.Titolo{
+		margin-right: 120px;
+	}
+	h3.frase{
+		margin-right:120px;
+	}
+	#coll1{
+		width:5%;
+		margin-left:1970px;
+	}
+	#coll2{
+		width:6%;
+		margin-left:1960px;
+	}
+	#Titolo1{
+		margin-right:120px;
+	}
+	#content_imgPiombino{
+		margin-left:1660px;
+		width:900px;
+		height:800px;
+	}
+	#coll3{
+		margin-left:0%;
+		padding-right:0%;
+		width:6%;
+	}
+	#coll3 a{
+		margin:0%;
+	}
+	div.container{
+		font-size:1.6em;
+	}
+	article.territorio{
+		width:6%;
+	}
+	#promontorio{
+		padding-left:2%;
+	}
+	#clima{
+		padding-left:90px;
+	}
+	#centro{
+		padding-right:40px;
+	}
+	#libreria{
+		padding-left:1500px;
+	}
+	#risultato{
+		font-size:1.2em;
+		margin-bottom:1200px;
+	}
+	#risultato img{
+		margin-left:400px;
+	}
+	div.beach{
+		font-size:1.8em;
+	}
+	div.end a{
+		padding:10px;	
+	}
+}

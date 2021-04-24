@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>Turista</title>
+	<meta charset="UTF-8" />
+	<script src="turista.js"></script>
+	<link rel="shortcut icon" type="image/png" href="img/piombino.png" />
+	<link rel="stylesheet" type="text/css" href="stile.css" />
+</head>
+
+<body>
+	
+	<header>
+	 <div class="Titolini">
+		<a href="index.html"><img id="piombino" src="img/piombino.png" alt="Stemma Piombino" /></a>
+		<h1>Scopri Piombino</h1>
+	 </div>
+	</header>
+	
+	<nav>
+	  <ul id= "menuOrizzontale">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="storia.html">Storia</a></li>
+		<li><a href="territorio.html">Territorio</a></li>
+		<li><a href ="spiagge.html">Spiagge</a></li>
+		<li id = "select">Sezione turista</li>
+		<li><a href="about.html">Informazioni</a></li>
+		</ul>
+	</nav>
+	
+	<div id = "copertina3" class = "copertina">
+		<h1>Crea il tuo percorso</h1>
+	</div>
+	
+	<p id = "percorso">Clicca qua sotto sul tipo di percorso che vuoi fare e poi scegli la tua meta...
+		 ti apparirà il modo più pratico per raggiungerla!</p>
+	
+	<br />
+	
+	<select id = "tipo"></select>
+	<select id = "nome"></select>
+	
+	<br />
+	
+	<span id = "itinerario"></span>
+	
+	<br />
+	
+	<div class= "mappa">
+		<p> Aiutati con Google Maps per trovare meglio la tua meta!</p>
+		<a href= "https://www.google.it/maps/place/57025+Piombino+LI/@42.9231492,10.5173244,13z/data=!4m5!3m4!1s0x12d623e2f7fae087:0x8cd09505e778662a!8m2!3d42.9256335!4d10.5258891">
+		<img src = "img/piantina.png" id = "piantina" alt = "Piatina di Piombino" /></a>
+	</div>
+	
+	<footer>
+		<div id = "recapito">
+			<h2>Designed by Mattia Filosa</h2>
+			<h3>mattiafilosa@tiscali.it</h3>
+		</div>
+	</footer>
+	
+</body>
+
+</html>
